@@ -42,11 +42,13 @@ function fazerPergunta() {
   const numeroAleatorio = Math.floor(Math.random() * totalRespostas)
 
   respostaElement.innerHTML = pergunta + respostas[numeroAleatorio]
-  respostaElement.style.opacity = 1;// depois desaparecer da tela podemos pergutnar novamente
+  espostaElement.style.opacity = 1;// depois desaparecer da tela podemos pergutnar novamente
 
   // sumir a resposta depois de 3 segundos
-  setTimeout(function () {
+  setTimeout(() => {
     respostaElement.style.opacity = 0;
     buttonPerguntar.removeAttribute("disabled")
   }, 3000)
+  
+
 }
