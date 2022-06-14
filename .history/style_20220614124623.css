@@ -73,7 +73,10 @@
   }
 
   footer {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
     text-align: center;
-    position: fixed;
     bottom: 0;
   }

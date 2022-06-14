@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    background: #1B1B1F;
+    color: #e1e1e6;
+}
+
+#container {
+    margin-top: 8rem;
+    width: 80%;
+    max-width: 460px;
+    margin-inline: auto;
+}
+
+img {
+    width: 128px;
+    height: 128px;
+}
+
+h1 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+p {
+    margin-bottom: 2rem;
+    color: #8D8D99;
+}
+
+input, button {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+
+    border-radius: 4px;
+}
+
+input {
+    margin-bottom: 20px;
+
+}
+
+button {
+    border: none;
+    background-color: #8257E5;
+    color: #e1e1e6;
+    font-weight: 700;
+    transition: filter .2s;
+}
+
+button:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+
+#resposta {
+    font
+    margin-top: 1.4rem;
+}
+
+#resposta div {
+    font-size: 1rem;
+    font-weight: 100;
+    opacity: .9;
+    margin-bottom: .8rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 420px) {
+
+}
+
+/*
+    background-image: url("https://cdn.pixabay.com/photo/2022/05/31/07/01/island-7232868_960_720.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    */

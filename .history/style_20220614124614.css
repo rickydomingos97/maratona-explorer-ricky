@@ -73,7 +73,9 @@
   }
 
   footer {
+    display: inline;
+    ju
+    position: absolute;
     text-align: center;
-    position: fixed;
     bottom: 0;
   }

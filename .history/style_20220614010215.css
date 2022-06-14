@@ -17,10 +17,7 @@
     margin-inline: auto;
   }
 
-  #container img {
-    width: 128px;
-    height: 128px;
-  }
+  
   
   h1 {
     margin-top: 40px;
@@ -69,11 +66,5 @@
     font-size: 16px;
     font-weight: normal;
     opacity: 0.9;
-    margin-bottom: .8rem;
-  }
-
-  footer {
-    text-align: center;
-    position: fixed;
-    bottom: 0;
+    margin-bottom: 10px;
   }
